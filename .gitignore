@@ -74,4 +74,4 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 .csv
-.tar.gz
+cache/

@@ -28,7 +28,7 @@ def txt_to_lists (dir):
 
 train_labels, train_examples = txt_to_lists("data/trainSet")
 test_labels, test_examples = txt_to_lists("data/testSet")
-train_data = pd.DataFrame(data = {'id': range(len(train_labels)), 'label': train_labels, 'alpha': ['a']*len(train_labels), 'example': train_examples})
-test_data = pd.DataFrame(data = {'id': range(len(test_labels)), 'label': test_labels, 'alpha': ['a']*len(test_labels), 'example': test_examples})
-train_data.to_csv('data/train.tsv', sep='\t', index=False, header=False)
-test_data.to_csv('data/dev.tsv', sep='\t', index=False, header=False)
+#train_data = pd.DataFrame(data = {'id': range(len(train_labels)), 'label': train_labels, 'alpha': ['a']*len(train_labels), 'example': train_examples})
+#test_data = pd.DataFrame(data = {'id': range(len(test_labels)), 'label': test_labels, 'alpha': ['a']*len(test_labels), 'example': test_examples})
+#train_data.to_csv('data/train.tsv', sep='\t', index=False, header=False)
+#test_data.to_csv('data/dev.tsv', sep='\t', index=False, header=False)
